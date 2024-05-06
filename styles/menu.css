@@ -14,6 +14,12 @@
   margin-right: 20px;
 }
 
+.menu__link:hover {
+  transition: ease-in-out;
+  transition-delay: 10ms;
+  scale: 1.1;
+}
+
 .menu__link:last-of-type {
   margin-right: 0;
 }

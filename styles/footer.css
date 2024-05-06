@@ -19,6 +19,12 @@
   margin: auto;
 }
 
+.footer__logo:hover {
+  transition: ease-in-out;
+  transition-delay: 10ms;
+  scale: 1.1;
+}
+
 .footer__top_text {
   text-align: center;
   font-size: 33px;
