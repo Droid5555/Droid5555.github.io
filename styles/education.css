@@ -7,7 +7,6 @@
 
 .establishment__title {
   margin: 20px;
-  font-size: 35px;
 }
 
 .establishment__logo:hover {
@@ -18,10 +17,27 @@
 
 .establishment__description {
   margin: 10px;
-  font-size: 18px;
 }
 
 .establishment__year {
   font-size: 15px;
   font-style: italic;
+}
+
+@media (min-width: 100px) {
+  .establishment__title {
+    font-size: 20px;
+  }
+  .establishment__description {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 650px) {
+  .establishment__title {
+    font-size: 35px;
+  }
+  .establishment__description {
+    font-size: 20px;
+  }
 }
