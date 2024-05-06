@@ -1,0 +1,24 @@
+/*Dimensions*/
+.picture_width_m {
+  width: 306px;
+}
+
+.picture_height_m {
+  height: 306px;
+}
+
+.picture_width_s {
+  width: 200px;
+}
+
+.picture_height_s {
+  height: 200px;
+}
+
+.picture_width_xs {
+  width: 50px;
+}
+
+.picture_height_xs {
+  height: 50px;
+}

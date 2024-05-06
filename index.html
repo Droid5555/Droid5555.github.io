@@ -1,1 +1,133 @@
-Hello World
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Портфолио Алексьяна Давидa, студента 1 курса ВШПИ">
+  <meta name="keywords" content="html, css, javascript">
+  <meta name="author" content="Алексьян Давид">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Портфолио Алексьяна Давида</title>
+</head>
+
+<body>
+
+<header class="header centered-block">
+  <h1 class="centered-block">
+    <a href="https://t.me/DDDDRRRROOOOIIIIDDDD" class="header__link" lang="ru"> David Aleksian</a>
+  </h1>
+</header>
+
+<nav class="menu centered-block page__menu">
+  <a href="#personal-info" class="menu__link">Кто я</a>
+  <a href="#education" class="menu__link">Мое обучение</a>
+  <a href="#skills" class="menu__link">Навыки</a>
+  <a href="#contacts" class="menu__link">Контакты</a>
+</nav>
+
+<hr class="divide-line">
+
+<main class="content centered-block">
+  <section id="personal-info">
+    <h2 class="content__title centered-block">Обо мне</h2>
+    <ul class="flex-row list">
+      <li class="personal-info__avatar personal-info_avatar_border picture_width_m picture_height_m">
+        <a href="images/my-pic.jpg" class="picture__overlay">Это я!</a>
+      </li>
+      <li class="info">
+        <p class="personal-info__description personal-info_description_border"> Студент первого курса ВШПИ МФТИ, родом
+          из солнечного Новороссийска.
+          Занимаюсь плаванием, играю на фортепиано и гитаре. Люблю музыку, прогать и браться за любые инициативы!
+          Долгое время занимался робототехникой. На данный момент изучаю C++, фронтент, алгоритмы и структуры данных,
+          математический анализ, линейную алгебру, матлогику и SQL.
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <hr class="divide-line">
+
+  <section id="education">
+    <h2 class="content__title centered-block">Образование</h2>
+    <ul class="flex-row list">
+      <li class="establishment">
+        <h3 class="establishment__title">Начальное</h3>
+        <a class="link" href="https://madouchaika70.ru/">
+          <img class="establishment__logo picture_width_s picture_height_s" src="images/kindergarden_logo.png"
+               alt="Детский сад">
+        </a>
+
+        <p class="establishment__description">МАДОУ ЦРР детский сад № 70 города Новороссийска</p>
+
+        <p class="establishment__year">2008-2011гг</p>
+      </li>
+      <li class="establishment">
+        <h3 class="establishment__title">Среднее</h3>
+        <a class="link" href="https://www.gimnaziya1.com/">
+          <img class="establishment__logo picture_width_s picture_height_s" src="images/school_logo.png" alt="Школа">
+        </a>
+        <p class="establishment__description">ЧОУ "Гимназия №1" города Новороссийска</p>
+        <p class="establishment__year">2012-2023гг</p>
+      </li>
+      <li class="establishment">
+        <h3 class="establishment__title">Высшее</h3>
+        <a class="link" href="https://hsse.mipt.ru/">
+          <img class="establishment__logo picture_width_s picture_height_s" src="images/hsse_logo.png" alt="ВУЗ">
+        </a>
+        <p class="establishment__description">МФТИ Высшая школа программной инженерии</p>
+        <p class="establishment__year">2023-2027гг</p>
+      </li>
+    </ul>
+  </section>
+
+  <hr class="divide-line">
+
+  <section id="skills">
+    <h2 class="content__title centered-block">Навыки</h2>
+    <ul class="flex-row list">
+      <li class="skill">
+        <img class="skill__logo picture_width_s picture_height_s" src="images/front-end_logo.png" alt="front-end logo">
+        <p class="skill skill__description">Прошёл курс фронтенд-разработки на Яндекс Практикуме</p>
+      </li>
+      <li class="skill">
+        <img class="skill__logo picture_width_s picture_height_s" src="images/cpp_logo.png" alt="c++ logo">
+        <p class="skill skill__description">Заканчиваю обучение по курсу С++ на ВШПИ</p>
+      </li>
+      <li class="skill">
+        <img class="skill__logo picture_width_s picture_height_s" src="images/python_logo.png" alt="python logo">
+        <p class="skill skill__description">Работаю над back-end частью проекта на Python</p>
+      </li>
+      <li class="skill">
+        <img class="skill__logo picture_width_s picture_height_s" src="images/postgresql_logo.png" alt="postgres logo">
+        <p class="skill skill__description">Создал собственный пет-проект на PostgresSQL</p>
+      </li>
+    </ul>
+  </section>
+  <hr class="divide-line">
+  <footer class="footer centered-block">
+    <section id="contacts">
+      <h2 class="footer__top_text">Как со мной связаться:</h2>
+      <div class="footer__logo-box centered-block">
+        <a class="link" href="https://t.me/DDDDRRRROOOOIIIIDDDD">
+          <img class="footer__logo picture_width_xs picture_height_xs" src="images/telegram_logo.png"
+               alt="telegram logo">
+        </a>
+        <a class="link" href="https://github.com/Droid5555">
+          <img class="footer__logo picture_width_xs picture_height_xs" src="images/github_logo.png" alt="github logo">
+        </a>
+        <a class="link" href="https://gitlab.com/Droid5555">
+          <img class="footer__logo picture_width_xs picture_height_xs" src="images/gitlab_logo.png" alt="gitlab logo">
+        </a>
+        <a class="link" href="https://vk.com/dalexyan">
+          <img class="footer__logo picture_width_xs picture_height_xs" src="images/vk_logo.png" alt="VK logo">
+        </a>
+      </div>
+    </section>
+    <h4 class="footer__bottom_text">All rights reserved. Алексьян Давид 2024 год.</h4>
+  </footer>
+</main>
+
+</body>
+

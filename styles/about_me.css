@@ -1,0 +1,52 @@
+/* About me style */
+.personal-info__avatar {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/my-pic.png);
+}
+
+.personal-info_avatar_border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: black solid 3px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 100%;
+}
+
+.picture__overlay {
+  background-color: rgba(0, 0, 0, .3);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  box-sizing: border-box;
+  opacity: 0;
+  position: relative;
+  border-radius: 100%;
+}
+
+.picture__overlay:hover {
+  opacity: 1;
+}
+
+.personal-info__description {
+  justify-content: center;
+  max-width: 550px;
+}
+
+.personal-info_description_border {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border: black solid 2px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 4%;
+}

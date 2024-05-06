@@ -1,0 +1,35 @@
+/*Footer style*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.footer__logo-box {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer__logo {
+  margin: auto;
+}
+
+.footer__top_text {
+  text-align: center;
+  font-size: 33px;
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+.footer__bottom_text {
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+  margin: 0 0 10px;
+  font-weight: bold;
+}

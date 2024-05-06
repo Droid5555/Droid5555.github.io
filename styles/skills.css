@@ -1,0 +1,13 @@
+/*Skills style*/
+.skill {
+  align-items: baseline;
+  text-align: center;
+}
+
+.skill__logo {
+  margin-bottom: 25px;
+}
+
+.skill__description {
+  max-width: 250px;
+}

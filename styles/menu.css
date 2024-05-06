@@ -1,0 +1,24 @@
+/*Menu style*/
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 75px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu__link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #10191E;
+  margin-right: 20px;
+}
+
+.menu__link:last-of-type {
+  margin-right: 0;
+}
+
+.page__menu {
+  margin: 10px auto;
+}
+

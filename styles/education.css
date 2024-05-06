@@ -1,0 +1,21 @@
+/*Education style*/
+
+.establishment {
+  align-items: baseline;
+  text-align: center;
+}
+
+.establishment__title {
+  margin: 20px;
+  font-size: 35px;
+}
+
+.establishment__description {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.establishment__year {
+  font-size: 15px;
+  font-style: italic;
+}

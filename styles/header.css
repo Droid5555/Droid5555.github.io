@@ -1,0 +1,34 @@
+/* Header style */
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__link {
+  font-weight: bold;
+  font-size: 28px;
+  text-decoration: none;
+  color: #13171c;
+}
+
+.header__link:after {
+  content: "!";
+}
+
+.header__link[lang="ru"]::before {
+  text-decoration: none;
+  content: "Привет, меня зовут ";
+}
+
+.header__link[lang="en"]::before {
+  text-decoration: none;
+  content: "Hello there, my name is ";
+}
+
+.header__link[lang="fr"]::before {
+  text-decoration: none;
+  content: "Bonjour, je suis ";
+}
