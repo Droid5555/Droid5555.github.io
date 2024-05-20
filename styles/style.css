@@ -1,12 +1,15 @@
 @import "reset.css";
 @import "dimensions.css";
-@import "main.css";
 @import "header.css";
 @import "menu.css";
 @import "about_me.css";
 @import "education.css";
 @import "skills.css";
 @import "footer.css";
-
-
-
+@import "gallery.css";
+@import "gallery-popup.css";
+@import "countdown.css";
+@import "form.css";
+@import "delayed-popup.css";
+@import "error_popup.css";
+@import "main.css";

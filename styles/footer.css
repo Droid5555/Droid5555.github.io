@@ -1,5 +1,6 @@
 /*Footer style*/
 .footer {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,16 +27,21 @@
 }
 
 .footer__top_text {
-  text-align: center;
-  font-size: 33px;
+  font-size: 40px;
   margin: 0 0 10px;
   font-weight: bold;
 }
 
 .footer__bottom_text {
-  text-align: center;
   font-style: italic;
-  font-size: 15px;
+  font-size: 20px;
   margin: 0 0 10px;
   font-weight: bold;
+}
+
+.footer__form-button {
+  width: 92%;
+  cursor: pointer;
+  color: dodgerblue;
+  text-decoration: underline;
 }

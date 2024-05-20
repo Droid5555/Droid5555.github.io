@@ -24,7 +24,7 @@
   font-style: italic;
 }
 
-@media (min-width: 100px) {
+@media (min-width: 0px) {
   .establishment__title {
     font-size: 20px;
   }

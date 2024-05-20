@@ -3,15 +3,18 @@
   background-position: center;
   background-size: cover;
   background-image: url(../images/my-pic.png);
+  margin-bottom: 10px;
 }
 
-.personal-info_avatar_border {
+.personal-info__avatar_border {
   display: flex;
   justify-content: center;
   align-items: center;
   border: black solid 3px;
   box-sizing: border-box;
   position: relative;
+  object-fit: cover;
+  overflow: hidden;
   border-radius: 100%;
 }
 
@@ -38,6 +41,7 @@
 .personal-info__description {
   justify-content: center;
   max-width: 550px;
+  margin: auto;
 }
 
 .personal-info_description_border {
@@ -49,4 +53,12 @@
   box-sizing: border-box;
   position: relative;
   border-radius: 4%;
+}
+
+@media (min-width: 0px ) and (max-width: 550px) {
+  .personal-info__description {
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+  }
 }
